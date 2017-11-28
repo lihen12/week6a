@@ -1,0 +1,70 @@
+.p1 {
+  float: left;
+}
+
+.p1 img {
+  clear: both;
+  float: left; 
+  width: 50%;
+}
+
+.swatches {
+  clear: both;
+  height: 52px;
+  margin: 0 auto 5px;
+}
+
+.bg-black {
+  background: black;
+  margin: 0 5px 5px;
+  border: 1px solid black;
+  padding: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.bg-blue {
+  background: blue;
+  margin: 0 5px 5px;
+  border: 1px solid blue;
+  padding: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.bg-gray {
+  background: gray;
+  margin: 0 5px 5px;
+  border: 1px solid gray;
+  padding: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.bg-red {
+  background: red;
+  margin: 0 5px 5px;
+  border: 1px solid red;
+  padding: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.product-h6 {
+  clear: both;
+  height: 60px;
+}
+
+.product-h6 a  {
+  float: left;
+  height: 20px;
+}
+
+h6 {
+  font-size: 1.05rem;
+  font-style: bold;
+}
