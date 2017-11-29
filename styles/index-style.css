@@ -1,17 +1,78 @@
-.p1 {
-  float: left;
+/* All content is for educational purposes */
+
+body {
+  background-color: white;
 }
 
-.p1 img {
+.header-nav {
+  margin: auto;
+  float: left;
+  background: black;
+  color: white;
+  width: 100vw;
+  padding: 4vh 20vw;
+}
+
+.header-nav nav ul li{
+  float: left;
+  position: relative;
+  top: 47.5px;
+  padding: 0 15px;
+}
+
+.header-nav nav ul li a {
+  color: white;
+  font-size: 1.1em;
+}
+
+header {
+  float: left;
+  width: 12vw;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.content-wrapper {
+  clear: both;
+  float: left;
+  width: 100vw;
+  padding: 1vh 20vw;
+}
+
+.content-wrapper .product-title {
+  font-size: 1.25em;
+  padding: 10px;
+  border-bottom: 2.5px solid lightgray;
+}
+
+.product-title h2 {
+  padding: 10px 0;
+}
+
+.content-wrapper .title {
+  clear: both;
+}
+
+/* This is for Product Module */
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10 {
+  float: left;
+  width: 250px;
+  text-align: center;
+  padding: 10px 10px 30px 10px;
+}
+
+/*section img {
   clear: both;
   float: left; 
-  width: 50%;
-}
+  
+  padding: 10px;
+} */
 
 .swatches {
   clear: both;
   height: 52px;
-  margin: 0 auto 5px;
+  width: 100%;
+  margin: 10px auto 5px;
 }
 
 .bg-black {
@@ -54,9 +115,21 @@
   width: 20px;
 }
 
+.bg-green {
+  background: green;
+  margin: 0 5px 5px;
+  border: 1px solid green;
+  padding: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
 .product-h6 {
   clear: both;
-  height: 60px;
+  height: 80px;  
+  width: 120px;
+  margin: auto;
 }
 
 .product-h6 a  {
@@ -66,5 +139,70 @@
 
 h6 {
   font-size: 1.05rem;
-  font-style: bold;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.price {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.strikethrough {
+  text-decoration-line: line-through;
+}
+
+.savings {
+  padding-bottom: 15px;
+}
+
+.review {
+  padding-bottom: 15px;
+  float: left;
+  width: 100%;
+  margin: auto;
+}
+
+i {
+  padding-bottom: 15px;
+}
+
+.compare {
+  position: relative;
+  clear: both;
+  margin: auto;
+  width: 85px;
+  height: 30px;
+  right: 2px;
+}
+
+/* end of product 1 */
+
+footer {
+  clear: both;
+  float: left;
+  width: 100vw;
+  text-align: center;
+  margin: auto;
+  padding: 2vh 0vw;
+}
+
+footer a {
+  padding: 1vw;
+}
+
+footer p {
+  padding: 1vw;
+  font-weight: 700;
 }
